@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-size: auto 80%; /* Adjust the height to 80% of the screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/736x/72/ef/81/72ef81cd216e8d78626265ea2c5cad22--christmas-videos-black-moon.jpg);
+}
+
+
+
+.countdown-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Adjust background size for phone screens */
+@media screen and (max-width: 768px) {
+    body {
+        background-size: auto 100%; /* Make the image cover the entire height of the screen */
+    }
+}
+
+
+
+
+
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.countdown-item {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.countdown-label {
+    font-size: 0.8rem;
+}
